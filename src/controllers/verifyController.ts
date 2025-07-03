@@ -46,7 +46,7 @@ export const verifyUserIp = async (
     });
   } else {
     throw new AppError(
-      "Sorry, we nonly allow Thai IP to enter the commnity",
+      "Sorry, we only allow Thai IP to enter the commnity",
       400
     );
   }
