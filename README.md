@@ -21,7 +21,7 @@ GeoVerifyBot is a Discord verification system that **checks user location and VP
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/GeoVerifyBot.git
+git clone https://github.com/bilal-the-dev/GeoVerifyBot
 cd GeoVerifyBot
 ```
 
