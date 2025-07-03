@@ -1,10 +1,10 @@
-### `GeoVerifyBot`
+### `IP-Checker-And-Blocker-Discord-Bot`
 
 _A Discord bot that verifies users by country & VPN detection before allowing access._
 
-# 🌍 GeoVerifyBot
+It is a Discord verification system that **checks user location and VPN status** before granting access to your Discord server. You can set a specific country (e.g. Pakistan), and only users from that country will be allowed through the verification process.
 
-GeoVerifyBot is a Discord verification system that **checks user location and VPN status** before granting access to your Discord server. You can set a specific country (e.g. Pakistan), and only users from that country will be allowed through the verification process.
+Basically, discord does not give access to people IPs. So this repositry contains a website made using handlebars engine where user goes for verification (we can grab the ip off user from the site).
 
 ## 🔐 Features
 
@@ -21,8 +21,8 @@ GeoVerifyBot is a Discord verification system that **checks user location and VP
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/bilal-the-dev/GeoVerifyBot
-cd GeoVerifyBot
+git clone https://github.com/bilal-the-dev/IP-Checker-And-Blocker-Discord-Bot ipBot
+cd ipBot
 ```
 
 ### 2. Install Dependencies
