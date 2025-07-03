@@ -6,6 +6,8 @@ It is a Discord verification system that **checks user location and VPN status**
 
 Basically, discord does not give access to people IPs. So this repositry contains a website made using handlebars engine where user goes for verification (we can grab the ip off user from the site).
 
+![Website Image](https://github.com/bilal-the-dev/IP-Checker-And-Blocker-Discord-Bot/blob/main/Capture.PNG)
+
 ## 🔐 Features
 
 - ✅ Country-based verification using IP geolocation
