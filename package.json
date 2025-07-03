@@ -15,6 +15,8 @@
   "description": "",
   "devDependencies": {
     "@types/express": "^5.0.3",
+    "@types/geoip-lite": "^1.4.4",
+    "@types/mongoose": "^5.11.96",
     "@types/morgan": "^1.9.10",
     "@types/node": "^22.13.4",
     "tsc-watch": "^7.1.1"
@@ -22,8 +24,12 @@
   "dependencies": {
     "@types/better-sqlite3": "^7.6.13",
     "better-sqlite3": "^11.9.1",
-    "discord.js": "^14.18.0",
+    "discord.js": "^14.21.0",
     "express": "^5.1.0",
+    "express-handlebars": "^8.0.1",
+    "express-rate-limit": "^7.5.1",
+    "geoip-lite": "^1.4.10",
+    "mongoose": "^8.16.1",
     "morgan": "^1.10.0",
     "rimraf": "^6.0.1",
     "typescript": "^5.7.3"

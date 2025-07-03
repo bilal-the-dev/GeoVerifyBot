@@ -10,5 +10,5 @@
     "resolveJsonModule": true, // Able to import json as ts doesnt do by default
     "strict": true /* Enable all strict type-checking options. */
   },
-  "include": ["src"] // specifies what files will be included in outdir
+  "include": ["src"] // specifies what files will be included in outdir,
 }

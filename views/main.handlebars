@@ -1,0 +1,7 @@
+<h1 class="message {{#if verified}}verified{{else}}not-verified{{/if}}">
+  {{message}}
+</h1>
+
+<p class="note {{#unless verified}}not-verified{{/unless}}">
+  {{subtext}}
+</p>

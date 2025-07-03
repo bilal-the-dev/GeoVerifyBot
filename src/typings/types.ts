@@ -1,1 +1,1 @@
-export type Nothing = "Nothing";
+export type verifyTokenQuery = { token?: string };

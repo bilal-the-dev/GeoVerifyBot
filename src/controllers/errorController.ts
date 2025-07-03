@@ -11,9 +11,13 @@ const globalErrorMiddleware = (
 
   res.status(err instanceof AppError ? err.statusCode : 500);
 
-  res.json({
-    status: "error",
-    message: err instanceof AppError ? err.message : "Something went wrong!",
+  res.render("main", {
+    verified: false,
+    message: "Could not complete your request.",
+    subtext:
+      err instanceof AppError
+        ? err.message
+        : "Please contact the admin/dev to fix it!",
   });
 };
 
