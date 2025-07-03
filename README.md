@@ -2,7 +2,6 @@
 
 _A Discord bot that verifies users by country & VPN detection before allowing access._
 
-````md
 # 🌍 GeoVerifyBot
 
 GeoVerifyBot is a Discord verification system that **checks user location and VPN status** before granting access to your Discord server. You can set a specific country (e.g. Pakistan), and only users from that country will be allowed through the verification process.
@@ -25,7 +24,6 @@ GeoVerifyBot is a Discord verification system that **checks user location and VP
 git clone https://github.com/your-username/GeoVerifyBot.git
 cd GeoVerifyBot
 ```
-````
 
 ### 2. Install Dependencies
 
