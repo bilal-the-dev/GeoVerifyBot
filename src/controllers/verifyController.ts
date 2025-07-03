@@ -45,6 +45,9 @@ export const verifyUserIp = async (
       subtext: "Check the Discord server.",
     });
   } else {
-    throw new AppError("You are not from Thailand and hence not allowed.", 400);
+    throw new AppError(
+      "Sorry, we nonly allow Thai IP to enter the commnity",
+      400
+    );
   }
 };
