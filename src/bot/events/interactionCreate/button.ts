@@ -23,9 +23,10 @@ export default async (interaction: BaseInteraction) => {
 
     await User.create({ userId: user.id, token });
 
-    await interaction.editReply(
-      `Please go [here](${process.env.DOMAIN}/verify?token=${token}) to verify yourselves. If you are not from thailand, your entry will be revoked. Token is valid for 10 minutes.`
-    );
+    await interaction.editReply({
+      content: `Please go [here](${process.env.DOMAIN}/verify?token=${token}) to verify yourselves. If you are not from thailand, your entry will be revoked. Token is valid for 10 minutes.`,
+      flags: [MessageFlags.SuppressEmbeds],
+    });
   } catch (error) {
     if (error instanceof Error) handleInteractionError(interaction, error);
   }

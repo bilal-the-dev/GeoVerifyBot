@@ -30,6 +30,6 @@ export async function detectVPN(ip: string) {
 
   console.log(data);
 
-  if (data.block === "1" || data.block === "2")
+  if (data.block === 1 || data.block === 2)
     throw new AppError("VPN Detected, Please turn it off", 400);
 }
